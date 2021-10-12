@@ -1,0 +1,23 @@
+GET http://localhost:3011/birds
+
+###
+
+POST http://localhost:3011/birds
+Content-Type: application/json
+
+{
+    "species": "Pitangus sulphuratus",
+    "notes": "It breeds in open woodland with some tall trees, including cultivation and around human habitation. It is mainly found in Belize, and from the Lower Rio Grande Valley in southern Texas and northern Mexico. Occurs throughout Brazil and Venezuela (especially the central and south-southeastern regions) south to Argentina and Uruguay, Paraguay and central Argentina, the Guyana coastline, and on Trinidad. It was introduced to Bermuda in 1957, and to Tobago in about 1970.",
+    "estimatedAmount": "15"
+}
+
+###
+
+POST http://localhost:3011/birds
+Content-Type: application/json
+
+{
+    "species": "Turdus albicollis",
+    "notes": "The white-necked thrush (Turdus albicollis) is a songbird found in forest and woodland in South America.  The taxonomy is potentially confusing, and it sometimes includes the members of the T. assimilis group as subspecies.",
+    "estimatedAmount": 8
+}

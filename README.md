@@ -10,7 +10,8 @@
   - species must be at most 80 characters long
   - notes must be at most 140 characters long
   - estimatedAmount must contain only numbers
-  - Question: what is it called when a string contains only letters and numbers?
+  - Question: what is it called when a string contains only letters and numbers? 
+    - Alphanumeric, can be validated with isAlphanumeric();
   - *BONUS* species and notes must contain only letters (no numbers or symbols)
 
 - Do not commit `node_modules`
